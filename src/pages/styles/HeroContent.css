@@ -1,0 +1,56 @@
+.hero-btn {
+    font-size: 1.1rem;
+    padding: 0.8rem 2rem;
+}
+
+.hero {
+    padding-top: 20vh;
+    padding-bottom: 40vh;
+    height: calc(100vh - 500px);
+    /* Subtract the navbar height from the viewport height */
+    text-align: center;
+    /* Offset the content by the navbar height */
+}
+
+.hero-subheading {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    max-width: 600px;
+    color: rgb(34, 34, 36);
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img {
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/*
+@font-face {
+    font-family: "Handwriting";
+    src: url("../../assets/fonts/SecretGrass.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+.hero-heading {
+    font-size: 50px;
+}
+
+@media (max-width: 768px) {
+    .hero-heading {
+        font-size: 2rem;
+    }
+
+    .hero-subheading {
+        font-size: 1.2rem;
+    }
+}

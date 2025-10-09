@@ -1,0 +1,70 @@
+.project-info-list {
+    text-align: left;
+    margin-top: 8px;
+}
+
+.project-info-list>div+div {
+    margin-top: 16px;
+}
+
+.project-top-section {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    column-gap: 80px;
+    width: 100%;
+    padding: 0 16px;
+    margin-bottom: 200px; /* Add bottom margin */
+}
+
+.project-top-section-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+.project-top-section-right {
+    width: 280px;
+    flex-shrink: 0;
+}
+
+.project-title {
+    text-align: left;
+}
+
+.project-desc-row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* Top align both children */
+    gap: 80px;
+}
+
+.project-description {
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+@media (max-width: 768px) {
+    .project-top-section {
+        flex-direction: column;
+        column-gap: 0;
+    }
+
+    .project-top-section-left,
+    .project-top-section-right {
+        width: 100%;
+    }
+
+    .project-top-section-right {
+        margin: 24px 0;
+        order: 1;
+        /* Right section comes after title */
+    }
+
+    .project-desc-row {
+        flex-direction: column;
+        gap: 0;
+    }
+}

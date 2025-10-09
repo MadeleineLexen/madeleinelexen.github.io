@@ -1,0 +1,26 @@
+.footer {
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+    background-color: rgb(161, 191, 122);
+    padding: 100px 0;
+
+}
+
+
+.socials {
+    font-size: 12px;
+}
+
+.contact-info {
+    display: inline-flex;
+    align-items: flex-end;
+    /* Align children to the bottom */
+    gap: 1rem;
+    /* Optional: space between text and icon */
+}
+
+
+.footer p {
+    font-size: 20px;
+}

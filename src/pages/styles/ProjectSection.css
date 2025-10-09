@@ -1,0 +1,24 @@
+.projects h2 {
+    margin-bottom: 20px;
+    /* Add space below the heading */
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.projects {
+    padding-bottom: 100px;
+    /* Add some padding around the section */
+}
+
+
+#projects {
+    scroll-margin-top: 150px;
+    /* This will offset the scroll position */
+}
+
+@font-face {
+    font-family: "Handwriting";
+    src: url("../../assets/fonts/SecretGrass.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}

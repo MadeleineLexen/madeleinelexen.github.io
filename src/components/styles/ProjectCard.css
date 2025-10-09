@@ -1,0 +1,83 @@
+.project-card {
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    min-width: 243px !important;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* Ensure all cards take the same height */
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project-card .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* Distribute content evenly */
+    flex-grow: 1;
+    /* Allow the body to grow and fill the card */
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    margin: 0px !important;
+}
+
+.stack-tags {
+    height: 100px;
+    /* Set a fixed height to ensure consistency */
+    overflow: hidden;
+    /* Prevent overflow if badges exceed the height */
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow badges to wrap to the next row */
+    justify-content: flex-start;
+    /* Align badges to the left */
+    align-items: flex-start;
+
+}
+
+.badge.stack-badge {
+    margin: 5px 5px;
+    color: #2a8307;
+    background-color: white !important;
+    padding: 10px 10px;
+    font-size: 0.85rem;
+    border-radius: 20px;
+    border: #2a8307 solid 1px !important;
+}
+
+.project-card .card-title {
+    font-size: 1.25rem;
+    /* Adjust font size as needed */
+    font-weight: bold;
+    line-height: 1.4;
+    /* Adjust line height for readability */
+    text-align: center;
+    /* Optional: Center-align the title */
+    height: 3.5rem;
+    /* Set a consistent height for the title container */
+    overflow: hidden;
+    /* Prevent overflow if the text is too long */
+    display: flex;
+    align-items: center;
+    /* Vertically center the text */
+    justify-content: center;
+    /* Horizontally center the text */
+    text-overflow: ellipsis;
+    /* Optional: Add ellipsis for long text */
+    word-wrap: break-word;
+    /* Allow breaking long words */
+}
