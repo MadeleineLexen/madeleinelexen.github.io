@@ -12,11 +12,11 @@
 }
 
 .about-page {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 
-img {
+.about-page img {
     border-radius: 8px;
     justify-content: center;
     max-width: 100%;
@@ -31,7 +31,7 @@ img {
 
 
     /* After md breakpoint */
-    img {
+    .about-page img {
         border-radius: 8px;
         width: 75%;
         /* Adjust to 75% */

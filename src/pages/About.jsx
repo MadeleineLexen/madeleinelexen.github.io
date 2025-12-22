@@ -17,11 +17,22 @@ export const About = () => {
           </Col>
           <Col lg={8}>
             <p>
-              I’m a UX designer passionate about creating intuitive, user-centered digital experiences. With a background in software engineering and interaction design, I bridge the gap between technology and people to design solutions that truly work.
+              I’m a UX designer who cares deeply about people and how they experience technology. With a background in software engineering and interaction design, I enjoy working at the intersection of logic and empathy to design digital experiences that feel intuitive, thoughtful, and human.
+
+              I’m motivated by curiosity and a drive to understand users, ask better questions, and create solutions that make a difference.
             </p>
             <p>
-              When I’m not working I like to experience things with my friends, go to concerts and events, or just hang out. Books have always been a big part of my life, and I spend a lot of my free time curled up on my sofa with a cup of tea and a book.
-            </p>
+              When I’m not designing, you’ll most likely find me at a concert, spending time with friends, or curled up on the sofa with a book and a cup of tea.            
+              </p>
+            <h3>Education</h3>
+            <ul>
+              <li>
+                MSc. in Interaction Design, Chalmers University of Technology
+              </li>
+              <li>
+                BSc.in Software Engineering, Chalmers University of Technology
+              </li>
+            </ul>
           </Col>
         </Row>
       </Container>
