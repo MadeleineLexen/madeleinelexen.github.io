@@ -4,6 +4,7 @@ import { Outlet } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Footer } from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+import Footer2 from "./components/Footer2";
 
 
 
@@ -16,7 +17,7 @@ function App() {
       <ScrollToTop />
       <Outlet></Outlet>
       </div>
-      <Footer />
+      <Footer2 />
     </div>  );
 }
 
