@@ -1,16 +1,19 @@
 import React from "react";
+import PausePalCardImage from "../assets/PausePal/PausePalCardImage.png";
+import Hero from "../assets/PausePal/PausePal-Hero.png";
 import ProjectCard, { ProjectCardProps } from "../components/ProjectCard";
 import masterThesis from "../assets/MasterThesis/MasterThesisCardWhite.png";
 import { Col, Container, Row } from "react-bootstrap";
 import "./styles/ProjectSection.css";
-import ProjectCardFlow from "../components/ProjectCardFlow";
+import ProjectCardNew from "../components/ProjectCardNew";
+
 
 const projects: ProjectCardProps[] = [
   {
     title: "PausePal - A Chrome Extension for Healthier Workdays",
     description:
       "A complete redesign of a mobile app to improve user experience and increase engagement.",
-    image: masterThesis,
+    image: PausePalCardImage,
     stack: [
       "Figma",
       "Illustration",
@@ -87,6 +90,22 @@ const ProjectSection = () => {
         </Row>
       </Container>
       */}
+      
+      <h2 style={{ marginTop: '4rem' }}>New Card Style</h2>
+      <Container>
+        <Row className="gx-2 justify-content-center" style={{ rowGap: '6rem' }}>
+          {projects.map((project, index) => (
+            <Col key={index} md={6} lg={6} className="mb-4 d-flex justify-content-center">
+              <ProjectCardNew
+                title={project.title}
+                description={project.description}
+                image={project.image}
+                tags={project.stack}
+              />
+            </Col>
+          ))}
+        </Row>
+      </Container>
     </section>
   );
 };
