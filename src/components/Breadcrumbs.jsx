@@ -10,7 +10,7 @@ const Breadcrumbs = () => {
                 className="breadcrumb"
                 aria-label="Go back"
             >
-                ⟵ Go Back
+                ⟵ Go back
             </button>
         </nav>
     );

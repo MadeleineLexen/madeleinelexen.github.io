@@ -1,6 +1,14 @@
-.breadcrumb {
+.breadcrumbs-container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
     display: flex;
-    align-items: center;
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+
+.breadcrumb {
     /* Vertically center arrow and text */
     gap: 0.5em;
     /* Space between arrow and text */
@@ -15,8 +23,6 @@
     text-align: left;
     text-decoration: none;
     /* No underline by default */
-    padding-left: 200px;
-    /* Add left padding */
 }
 
 .breadcrumb:hover,

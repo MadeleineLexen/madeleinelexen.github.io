@@ -6,7 +6,7 @@ const ProjectTopSection = ({ title, description, info }) => (
 
     
     <div className="project-top-section-left">
-      <h1 className="project-title">{"Background"}</h1>
+      <h2 className="project-title">{"Background"}</h2>
       <div className="project-desc-row">
         <div className="project-description">
           <p>{description}</p>

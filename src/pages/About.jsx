@@ -1,6 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import polaroid from '../assets/polaroid.png';
 import "./styles/About.css";
+import picture from '../assets/Portfolio-profile-picture.png';
 
 export const About = () => {
   return (
@@ -10,7 +11,7 @@ export const About = () => {
         <Row className="align-items-center">
           <Col lg={4} className="mb-4 mb-lg-0">
             <img
-              src={polaroid}
+              src={picture}
               alt="Madeleine, UX designer from Gothenburg"
               className="img-fluid"
             />

@@ -14,7 +14,7 @@
     column-gap: 80px;
     width: 100%;
     padding: 0 16px;
-    margin-bottom: 200px; /* Add bottom margin */
+    margin: 5rem auto;
 }
 
 .project-top-section-left {
@@ -31,6 +31,7 @@
 
 .project-title {
     text-align: left;
+    margin-bottom: 1.5rem;
 }
 
 .project-desc-row {

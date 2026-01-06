@@ -1,15 +1,15 @@
-import { Row, Col } from "react-bootstrap";
 import PropTypes from "prop-types";
+import "./styles/SectionTitleAboveContent.css";
 
 const SectionTitleAboveContent = ({ title, children }) => (
-  <Row className="mb-5">
-    <Col lg={4}>
+  <div className="project-section-container">
+    <div className="section-title-above">
       <h2>{title}</h2>
-    </Col>
-    <Col lg={8}>
-      {children}
-    </Col>
-  </Row>
+      <div className="section-content">
+        {children}
+      </div>
+    </div>
+  </div>
 );
 
 SectionTitleAboveContent.propTypes = {
