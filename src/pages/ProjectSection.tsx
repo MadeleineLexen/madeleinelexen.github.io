@@ -1,5 +1,6 @@
 import React from "react";
 import PausePalCardImage from "../assets/PausePal/PausePalCardImage.png";
+import masterTheisCardImage from "../assets/MasterThesis/MasterThesisCardImage.png";
 import Hero from "../assets/PausePal/PausePal-Hero.png";
 import ProjectCard, { ProjectCardProps } from "../components/ProjectCard";
 import masterThesis from "../assets/MasterThesis/MasterThesisCardWhite.png";
@@ -10,29 +11,27 @@ import ProjectCardNew from "../components/ProjectCardNew";
 
 const projects: ProjectCardProps[] = [
   {
-    title: "PausePal - A Chrome Extension for Healthier Workdays",
+    title: "PausePal",
     description:
-      "A complete redesign of a mobile app to improve user experience and increase engagement.",
+      "A Chrome Extension for Healthier Workdays",
     image: PausePalCardImage,
     stack: [
       "Figma",
       "Illustration",
-      "Prototyping",
-      "User Testing",
-      "Sketching",
+      "UI design",
+      "UX research",
     ],
     link: "pausepal",
   },
   {
-    title: "Master Thesis - Maritime coordination centre",
+    title: "Master Thesis",
     description:
-      "Optimized the user journey for an e-commerce website to increase conversion rates and ease of navigation.",
-    image: masterThesis,
+      "Maritime coordination centre",
+    image: masterTheisCardImage,
     stack: [
-      "Figma",
-      "Illustration",
-      "Prototyping",
-      "User Testing",
+      "Litterature review",
+      "UI design",
+      "UX research",
       "Sketching",
     ],
     link: "masterthesis",
@@ -101,6 +100,7 @@ const ProjectSection = () => {
                 description={project.description}
                 image={project.image}
                 tags={project.stack}
+                link={project.link}
               />
             </Col>
           ))}

@@ -1,9 +1,10 @@
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 import "./styles/ProjectCardNew.css";
 
-const ProjectCardNew = ({ image, title, description, tags }) => {
+const ProjectCardNew = ({ image, title, description, tags, link }) => {
   return (
-    <div className="project-card-new">
+    <Link to={`/${link}`} className="project-card-new">
       <div className="project-card-new-image">
         <img src={image} alt={title} />
       </div>
@@ -18,7 +19,7 @@ const ProjectCardNew = ({ image, title, description, tags }) => {
           ))}
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 
@@ -27,6 +28,7 @@ ProjectCardNew.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   tags: PropTypes.arrayOf(PropTypes.string).isRequired,
+  link: PropTypes.string.isRequired,
 };
 
 export default ProjectCardNew;

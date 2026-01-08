@@ -9,6 +9,13 @@
   max-width: 400px;
   padding-bottom: 0.5rem;
   position: relative;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-card-new:hover {
+  text-decoration: none;
+  color: inherit;
 }
 
 .project-card-new::after {
@@ -23,6 +30,8 @@
 
 .project-card-new:hover {
   transform: scale(1.05);
+  text-decoration: none;
+  color: inherit;
 }
 
 .project-card-new-image {
