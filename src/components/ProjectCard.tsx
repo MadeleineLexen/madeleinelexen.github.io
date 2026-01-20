@@ -1,6 +1,5 @@
-import React from "react";
-import { Card, Badge } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
+import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 import "./styles/ProjectCard.css";
 
 export interface ProjectCardProps {
@@ -11,37 +10,29 @@ export interface ProjectCardProps {
   link: string;
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({
-  title,
-  description,
-  image,
-  stack,
-  link,
-}) => {
-  const navigate = useNavigate();
 
+
+const ProjectCard = (props: ProjectCardProps) => {
   return (
-    <Card className="project-card" onClick={() => navigate(link)}>
-      <Card.Img
-        variant="top"
-        src={image}
-        className="project-image"
-        alt={title}
-      />
-      <Card.Body>
-        <Card.Title className="card-title">{title}</Card.Title>
-        <div className="stack-tags">
-          {stack.map((tech, index) => (
-            <Badge key={index} className="stack-badge">
-              {tech}
-            </Badge>
+    <Link to={`/${props.link}`} className="project-card-new">
+      <div className="project-card-new-image">
+        <img src={props.image} alt={props.title} />
+      </div>
+      <div className="project-card-new-content">
+        <h3 className="project-card-new-title">{props.title}</h3>
+        <p className="project-card-new-description">{props.description}</p>
+        <div className="project-card-new-tags">
+          {props.stack.map((tag, index) => (
+            <span key={index} className="project-tag">
+              {tag}
+            </span>
           ))}
         </div>
-      </Card.Body>
-    </Card>
+      </div>
+    </Link>
   );
 };
 
-export default ProjectCard;
 
-//genererat av chatgpt, inte kollat hur de ser ut än
+
+export default ProjectCard;
