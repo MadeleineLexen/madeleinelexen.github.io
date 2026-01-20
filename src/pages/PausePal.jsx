@@ -9,6 +9,7 @@ import breathe from "../assets/PausePal/Breathing 2.png"
 import timerOld from "../assets/PausePal/Timer-view-old.png"
 import breatheOld from "../assets/PausePal/Breathe-old.png"
 import Hero from "../assets/PausePal/PausePal-Hero.png"
+import sketchesPhoto from "../assets/PausePal/PausePalLowFiSketch.png"
 
 
 const PausePal = () => {
@@ -24,29 +25,34 @@ const PausePal = () => {
         <ProjectTopSection
           title="PausePal"
           description={[
-            "After learning from the Swedish Cancer Society that prolonged sitting increases the risk of cancer, diabetes, and cardiovascular disease, I tried to build healthier habits myself. I knew short breaks were good for my focus and wellbeing—but like many remote workers, I often forgot to take them.",
-            " This became the spark for my project: a Chrome extension that reminds users to pause and suggests quick stretches or desk exercises to make breaks more meaningful."
+            "After learning from the Swedish Cancer Society that prolonged sitting increases the risk of cancer, diabetes, and cardiovascular disease, I tried to build healthier habits myself. I knew short breaks were good for my focus and wellbeing, but i kept forgetting to take them.",
+            " This became the spark for my project: a Chrome extension that reminds users to pause and breath, or do some quick stretches or desk exercises to make breaks more meaningful."
           ]}
           info={{
             client: "Personal Project",
-            role: "UX, Visual, Motion Design",
+            role: "UX, UI",
             team: "Individual Contribution",
-            timeline: "4 weeks in spring 2019"
+            timeline: "3 months summer 2025"
           }}
         />
 
         <h3 className="goal-heading">Goal - Design a simple tool that reminds users to take short active breaks and guides them through quick exercises, reducing the health risks of prolonged sitting.</h3>
-        
+
         <SectionTextLeftContentRight
           title="Solution"
-          left={<p>PausePal runs quietly in the background while you work. At set intervals, it gently reminds you to take a short break. When a reminder appears, you can start a guided stretch or desk exercise that only takes a minute or two to complete.
-            The exercises are designed to be simple and accessible, making it easy to move without leaving your workspace. Once the break is done, PausePal seamlessly returns you to your work—helping you stay active without breaking your flow.</p>}
+          left={<p>PausePal runs quietly in the background while you work. At set intervals, it gently reminds you to take a short break. When a reminder appears, you can start a guided breathing exercise or do some quick stretches or desk exercises that only take a minute or two to complete.
+            The exercises are designed to be simple and accessible, making it easy to move without leaving your workspace. Once the break is done, you can seamlessly return to your work, and stay active without breaking your flow.</p>}
           right={<img src={timer} alt="PausePal screenshot" />}
         />
         <SectionTitleAboveContent title="Process">
           <p>
-            I started by benchmarking similar products to understand what was already out there and where we could do better. From there, I sketched wireframes and turned them into prototypes to quickly test ideas. I also created illustrations to bring personality into the design. Finally, I ran user testing sessions, which gave me direct insights into what worked, what didn't, and how to refine the experience.
+            I started by benchmarking similar products to understand what was already out there and where we could do better. Here I identified that altough similar tools exist, they didn't offer alternative activities, where you can chose what suits you in the moment. I decided to combine movement excercises and mindfullness excercises like guided box breathing. I also identified that customisability of interval and schedule was a positive feature, that should be incorporated in my solution.
           </p>
+          <div className="centered-image">
+            <img src={sketchesPhoto} alt="PausePal sketches photo" />
+           
+          </div> 
+          <p>From there, I sketched wireframes and turned them into low fidelity prototypes to quickly test some layouts and flows which i used to get some early user feedback. With this I created wireframes in Figma and a clickable prototype which i used in some further user testing to see what worked, what didn't, and how to refine the experience. After these test I updated the wireframes based on the feedback i recieved.</p>
           <div className="image-grid">
             <img src={timerOld} alt="PausePal screenshot version 1 timer" />
             <img src={breatheOld} alt="PausePal screenshot version 1 breathe" />
@@ -54,7 +60,7 @@ const PausePal = () => {
             <img src={breathe} alt="PausePal screenshot version 2 breathe" />
           </div>
           <p>
-            The images above show how the app developed over time. The first version was my initial concept, where I focused on structure and functionality. After running user tests, I gathered valuable feedback about how the app felt to use, not just how it worked. One of the biggest takeaways was the impact of the colorway — something that seemed minor at first, but completely changed the mood and made the app feel more approachable. The improved version reflects those insights, turning early ideas into a design that resonated more strongly with users.
+            The images above show how the app developed over time. The first version was my initial concept, where I focused on structure and functionality. Feedback from the second user tests showed that the app felt a bit "square" in it's design, and not so cosy. Changing the color pallatte and some of the animations made the app feel more calming.
           </p>
         </SectionTitleAboveContent>
 

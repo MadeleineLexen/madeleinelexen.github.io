@@ -41,6 +41,19 @@
   border-radius: 8px;
 }
 
+.centered-image {
+  display: flex;
+  justify-content: center;
+  margin: 3rem auto;
+  width: 100%;
+}
+
+.centered-image img {
+  max-width: 1200px;
+  width: 100%;
+  height: auto;
+}
+
 @media screen and (max-width: 768px) {
   .image-grid {
     grid-template-columns: 1fr;
