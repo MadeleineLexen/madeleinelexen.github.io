@@ -7,7 +7,7 @@ export const About = () => {
   return (
     <section className="about-page">
       <Container fluid="md">
-        <h2>About me</h2>
+        <h2 className="section-heading">About me</h2>
         <Row className="align-items-center">
           <Col lg={4} className="mb-4 mb-lg-0">
             <img

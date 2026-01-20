@@ -43,6 +43,11 @@ h4 {
   font-weight: 500;
 }
 
+.section-heading {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
 @media screen and (max-width: 768px) {
   p {
     font-size: 20px;

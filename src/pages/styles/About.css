@@ -2,17 +2,7 @@
     padding: 5% 5% 0 5%;
     display: flex;
     padding-top: 100px;
-    min-height: 100vh;
-}
-
-.about-page h2 {
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    text-align: center;
-}
-
-.about-page {
-    padding-bottom: 50px;
+    padding-bottom: 6rem;
 }
 
 
@@ -27,15 +17,8 @@
 }
 
 @media (max-width: 768px) {
-
-
-
-    /* After md breakpoint */
     .about-page img {
         border-radius: 8px;
         width: 75%;
-        /* Adjust to 75% */
-        /* Limit max size */
     }
-
 }

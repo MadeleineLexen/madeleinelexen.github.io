@@ -1,8 +1,6 @@
 import React from "react";
 import PausePalCardImage from "../assets/PausePal/PausePalCardImage.png";
 import masterTheisCardImage from "../assets/MasterThesis/MasterThesisCardImage.png";
-import Hero from "../assets/PausePal/PausePal-Hero.png";
-import masterThesis from "../assets/MasterThesis/MasterThesisCardWhite.png";
 import { Col, Container, Row } from "react-bootstrap";
 import "./styles/ProjectSection.css";
 import ProjectCard, { ProjectCardProps } from "../components/ProjectCard";
@@ -23,9 +21,9 @@ const projects: ProjectCardProps[] = [
     link: "pausepal",
   },
   {
-    title: "Master Thesis",
+    title: "Master thesis",
     description:
-      "Maritime coordination centre",
+      "Designing for a maritime coordination centre",
     image: masterTheisCardImage,
     stack: [
       "Litterature review",
@@ -40,7 +38,7 @@ const projects: ProjectCardProps[] = [
 const ProjectSection = () => {
   return (
     <section className="projects">
-      <h2>Projects</h2>
+      <h2 className="section-heading">Projects</h2>
       <Container>
         <Row className="gx-2 justify-content-center" style={{ rowGap: '6rem' }}>
           {projects.map((project, index) => (
