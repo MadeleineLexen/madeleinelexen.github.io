@@ -36,7 +36,7 @@ const PausePal = () => {
           }}
         />
 
-        <h3 className="goal-heading">Goal - Design a simple tool that reminds users to take short active breaks and guides them through quick exercises, reducing the health risks of prolonged sitting.</h3>
+        <p className="goal-statement">Goal - Design a simple tool that reminds users to take short active breaks and guides them through quick exercises, reducing the health risks of prolonged sitting.</p>
 
         <SectionTextLeftContentRight
           title="Solution"

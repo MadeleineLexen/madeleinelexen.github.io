@@ -57,15 +57,24 @@
     .project-top-section-right {
         width: 100%;
     }
+    
+    .project-title {
+        order: 2;
+    }
 
     .project-top-section-right {
         margin: 24px 0;
         order: 1;
-        /* Right section comes after title */
+        /* Info list comes first, before heading */
     }
 
     .project-desc-row {
         flex-direction: column;
         gap: 0;
+        order: 3;
+    }
+    
+    .project-description {
+        order: 2;
     }
 }

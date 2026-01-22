@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Footer } from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import Footer2 from "./components/Footer2";
+import { Navbar } from "react-bootstrap";
 
 
 
