@@ -7,6 +7,7 @@ import logo from "../assets/Chatgpt-logo.png";
 function Menu() {
   const location = useLocation();
   const isHome = location.pathname === "/";
+  const currentHash = location.hash;
 
   return (
     <div className="nav-sticky">
@@ -35,15 +36,13 @@ function Menu() {
           <Nav className="ml-auto">
             {isHome ? (
               <>
-                <a className="nav-link" href="#projects" aria-label="View my UX design projects">Projects</a>
-                <a className="nav-link" href="#about" aria-label="Read about Madeleine">About</a>
-                <a className="nav-link" href="#contact" aria-label="Find out how to contact Madeleine">Contact</a>
+                <a className={`nav-link ${currentHash === '#projects' ? 'active' : ''}`} href="#projects" aria-label="View my UX design projects">PROJECTS</a>
+                <a className={`nav-link ${currentHash === '#about' ? 'active' : ''}`} href="#about" aria-label="Read about Madeleine">ABOUT</a>
               </>
             ) : (
               <>
-                <Link className="nav-link" to="/#projects" aria-label="View my UX design projects">Projects</Link>
-                <Link className="nav-link" to="/#about" aria-label="Read about Madeleine">About</Link>
-                <Link className="nav-link" to="/#contact" aria-label="Find out how to contact Madeleine">Contact</Link>
+                <Link className="nav-link" to="/#projects" aria-label="View my UX design projects">PROJECTS</Link>
+                <Link className="nav-link" to="/#about" aria-label="Read about Madeleine">ABOUT</Link>
               </>
             )}
           </Nav>

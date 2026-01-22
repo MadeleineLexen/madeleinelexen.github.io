@@ -13,7 +13,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   scroll-behavior: auto;
-  background-color: #f8f5f1;
+  background-color: #faf8f6;
 }
 
 /* Paragraph Styling */
@@ -64,5 +64,5 @@ h4 {
 
 .content {
   flex-grow: 1;
-  background-color: #f8f5f1;
+  background-color: #faf8f6;
 }
