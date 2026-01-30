@@ -14,8 +14,8 @@ const UxFooter = () => {
   
 
       <div className="ux-footer-content">
-        <p>© {year} Madeleine Lexén. Designed with &lt;3</p>
-        
+        <p>© {year} Madeleine Lexén. Designed with &lt;3.</p>
+        <p> This website was built by me using react, and a little help from github copilot.</p>
         <div className="ux-footer-social-icons">
           <a
             href="https://www.linkedin.com/in/madeleinelexen"
