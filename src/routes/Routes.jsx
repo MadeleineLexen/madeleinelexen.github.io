@@ -11,33 +11,43 @@ import PausePal from "../pages/PausePal";
 export const router = createBrowserRouter([
   {
     element: <App />,
-    errorElement: <ErrorPage />,
     children: [
-      { path: "/", element: <HomePage /> },
+      { path: "/", element: <HomePage />, errorElement: <ErrorPage /> },
       {
         path: "/about",
         element: <About />,
+        errorElement: <ErrorPage />,
       },
       {
         path: "/projects",
         element: <Projects />,
+        errorElement: <ErrorPage />,
       },
       {
         path: "/contact",
         element: <Contact />,
+        errorElement: <ErrorPage />,
       },
       {
-        path: "/pausepal", // Dynamic route for project details
-        element: <PausePal />, // Render the project page for each project
+        path: "/pausepal",
+        element: <PausePal />,
+        errorElement: <ErrorPage />,
       },{
-        path: "/masterthesis", // Dynamic route for project details
-        element: <MasterThesis />, // Render the project page for each project
+        path: "/masterthesis",
+        element: <MasterThesis />,
+        errorElement: <ErrorPage />,
       },{
-        path: "/project3", // Dynamic route for project details
-        element: <MasterThesis />, // Render the project page for each project
+        path: "/project3",
+        element: <MasterThesis />,
+        errorElement: <ErrorPage />,
       },{
-        path: "/project4", // Dynamic route for project details
-        element: <MasterThesis />, // Render the project page for each project
+        path: "/project4",
+        element: <MasterThesis />,
+        errorElement: <ErrorPage />,
+      },
+      {
+        path: "*",
+        element: <ErrorPage />,
       },
     ],
   },
