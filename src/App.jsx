@@ -1,7 +1,7 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import Menu from "./components/Menu";
 import { Outlet } from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { Footer } from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
 import Footer2 from "./components/Footer2";
