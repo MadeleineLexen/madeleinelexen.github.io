@@ -14,7 +14,7 @@
     font-size: 1rem;
     margin-top: 20px;
     max-width: 600px;
-    color: rgb(34, 34, 36);
+    color: rgb(49, 49, 51);
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -44,6 +44,7 @@
 */
 .hero-heading {
     font-size: 50px;
+    color: #39393a;
 }
 
 @media (max-width: 768px) {

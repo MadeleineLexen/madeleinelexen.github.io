@@ -46,7 +46,6 @@ nav .nav-menu {
 
 
 nav ul li a {
-    color: rgb(34, 34, 36);
     padding: 8px;
     text-decoration: none;
     height: 100%;
@@ -71,10 +70,6 @@ nav ul li a:not(.active):hover {
 }
 
 @media (max-width: 768px) {
-    nav {
-        margin: 0;
-    }
-
     nav .menu {
         display: flex;
     }
