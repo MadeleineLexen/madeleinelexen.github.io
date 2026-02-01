@@ -5,7 +5,7 @@ import Contact from "../pages/Contact";
 import { About } from "../pages/About";
 import HomePage from "../pages/HomePage";
 import App from "../App";
-import MasterThesis from "../pages/MasterThesis"; 
+import MasterThesis from "../pages/MasterThesis.tsx"; 
 import PausePal from "../pages/PausePal";
 
 export const router = createBrowserRouter([

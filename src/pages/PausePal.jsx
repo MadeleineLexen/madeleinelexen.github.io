@@ -50,8 +50,8 @@ const PausePal = () => {
           </p>
           <div className="centered-image">
             <img src={sketchesPhoto} alt="PausePal sketches photo" />
-           
-          </div> 
+
+          </div>
           <p>From there, I sketched wireframes and turned them into low fidelity prototypes to quickly test some layouts and flows which i used to get some early user feedback. With this I created wireframes in Figma and a clickable prototype which i used in some further user testing to see what worked, what didn't, and how to refine the experience. After these test I updated the wireframes based on the feedback i recieved.</p>
           <div className="image-grid">
             <img src={timerOld} alt="PausePal screenshot version 1 timer" />

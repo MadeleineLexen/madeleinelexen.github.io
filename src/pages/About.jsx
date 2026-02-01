@@ -1,7 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
-import polaroid from '../assets/polaroid.png';
+import polaroid from '../assets/ProfilePictures/polaroid.png';
 import "./styles/About.css";
-import picture from '../assets/Portfolio-profile-picture.png';
+import picture from '../assets/ProfilePictures/Portfolio-profile-picture.png';
 
 export const About = () => {
   return (
