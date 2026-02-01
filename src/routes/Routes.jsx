@@ -1,6 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
 import { ErrorPage } from "../errorPage";
-import { Projects } from "../pages/Projects";
 import Contact from "../pages/Contact";
 import { About } from "../pages/About";
 import HomePage from "../pages/HomePage";
@@ -19,11 +18,6 @@ export const router = createBrowserRouter([
         errorElement: <ErrorPage />,
       },
       {
-        path: "/projects",
-        element: <Projects />,
-        errorElement: <ErrorPage />,
-      },
-      {
         path: "/contact",
         element: <Contact />,
         errorElement: <ErrorPage />,
@@ -32,16 +26,9 @@ export const router = createBrowserRouter([
         path: "/pausepal",
         element: <PausePal />,
         errorElement: <ErrorPage />,
-      },{
+      },
+      {
         path: "/masterthesis",
-        element: <MasterThesis />,
-        errorElement: <ErrorPage />,
-      },{
-        path: "/project3",
-        element: <MasterThesis />,
-        errorElement: <ErrorPage />,
-      },{
-        path: "/project4",
         element: <MasterThesis />,
         errorElement: <ErrorPage />,
       },
