@@ -1,8 +1,8 @@
 import React from "react";
 import "./styles/Footer2.css";
 import WaveFooter from "../assets/Wave-footer.svg";
-import LinkedInIcon from "../assets/linkedin-icon.svg";
-import GitHubIcon from "../assets/github-icon.svg";
+import LinkedInIcon from "../assets/Socials/linkedin-icon.svg";
+import GitHubIcon from "../assets/Socials/github-icon.svg";
 
 const UxFooter = () => {
   const year = new Date().getFullYear();
