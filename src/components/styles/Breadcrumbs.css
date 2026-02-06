@@ -15,7 +15,7 @@
     align-self: flex-start;
     background: none;
     border: none;
-    color: rgb(106, 143, 62);
+    color: var(--accent-green);
     font-weight: bold;
     cursor: pointer;
     margin-bottom: 16px;

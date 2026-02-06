@@ -1,3 +1,23 @@
+/* CSS Variables - Global Color Palette */
+:root {
+  /* Background Colors */
+  --bg-primary: #faf8f6;
+  --bg-footer: #1A513E;
+  
+  /* Text Colors */
+  --text-primary: rgb(49, 49, 51);
+  --text-heading: #39393a;
+  --text-light: white;
+  
+  /* Accent Colors */
+  --accent-green: #6A8F3E;
+  --accent-green-rgb: 106, 143, 62; /* For rgba usage */
+  
+  /* Neutral Colors */
+  --color-black: black;
+  --color-white: white;
+}
+
 /* Global Reset */
 * {
   box-sizing: border-box;
@@ -9,23 +29,23 @@
 html,
 body {
   height: 100%;
-  color: black;
+  color: var(--color-black);
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   scroll-behavior: auto;
-  background-color: #faf8f6;
+  background-color: var(--bg-primary);
 }
 
 /* Paragraph Styling */
 p {
   font-size: 20px;
   text-align: justify;
-  color: rgb(49, 49, 51);
+  color: var(--text-primary);
 }
 
 /* Heading Styling */
 h1, h2, h3, h4, h5, h6 {
-  color: #39393a;
+  color: var(--text-heading);
 }
 
 h1 {
@@ -76,5 +96,5 @@ h4 {
 
 .content {
   flex-grow: 1;
-  background-color: #faf8f6;
+  background-color: var(--bg-primary);
 }

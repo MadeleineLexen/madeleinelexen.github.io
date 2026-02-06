@@ -1,8 +1,4 @@
-.projects {
-    padding-bottom: 100px;
-    /* Add some padding around the section */
-}
-
+/* Project section styles - padding controlled by parent page */
 
 #projects {
     scroll-margin-top: 150px;

@@ -6,8 +6,8 @@
   margin-left: -50vw;
   margin-right: -50vw;
   margin-top: calc(100vw / 5.29); /* Space for the wave */
-  background-color: #1A513E; /* Match wave footer color*/
-  color: white;
+  background-color: var(--bg-footer); /* Match wave footer color*/
+  color: var(--text-light);
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -41,7 +41,7 @@
   margin: 0;
   font-size: 1rem;
   font-weight: 500;
-  color: white;
+  color: var(--text-light);
 }
 
 .ux-footer-social-icons {
@@ -49,7 +49,7 @@
   display: flex;
   gap: 1.5rem;
   justify-content: center;
-  color: white;
+  color: var(--text-light);
 }
 
 .ux-footer-social-icons a {

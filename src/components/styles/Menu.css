@@ -1,5 +1,5 @@
 .nav-background {
-  background-color: #faf8f6 !important;
+  background-color: var(--bg-primary) !important;
   padding-left: 80px !important;
   padding-right: 80px !important;
 }
@@ -31,7 +31,7 @@
     left: 0;
     width: 0;
     height: 12px;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 24' preserveAspectRatio='none'%3E%3Cpath d='M0,12 C10,0 20,0 30,12 C40,24 50,24 60,12' stroke='rgb(106, 143, 62)' stroke-width='3' fill='none'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 24' preserveAspectRatio='none'%3E%3Cpath d='M0,12 C10,0 20,0 30,12 C40,24 50,24 60,12' stroke='%236A8F3E' stroke-width='3' fill='none'/%3E%3C/svg%3E");
     background-repeat: repeat-x;
     background-size: 60px 12px;
     transition: width 0.6s ease;
@@ -42,7 +42,7 @@
 }
 
 .nav-link.active {
-    color: rgb(106, 143, 62) !important;
+    color: var(--accent-green) !important;
 }
 
 
@@ -61,7 +61,7 @@ a {
 }
 
 .nav-link:hover {
-    color: rgb(106, 143, 62) !important;
+    color: var(--accent-green) !important;
 }
 
 @font-face {
