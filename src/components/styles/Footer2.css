@@ -26,6 +26,7 @@
   display: block;
   transform: translateY(-99%);
   pointer-events: none;
+  shape-rendering: crispEdges;
 }
 
 

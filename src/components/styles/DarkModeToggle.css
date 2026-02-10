@@ -1,0 +1,34 @@
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+  color: var(--text-primary);
+  margin-left: 20px;
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
+}
+
+.theme-toggle .icon {
+  width: 24px;
+  height: 24px;
+  transition: color 0.2s ease;
+}
+
+.theme-toggle:hover .icon {
+  color: var(--accent-green);
+}
+
+.moon-icon {
+  fill: currentColor;
+}
+
+.sun-icon {
+  fill: currentColor;
+}

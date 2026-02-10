@@ -5,17 +5,37 @@
   --bg-footer: #1A513E;
   
   /* Text Colors */
-  --text-primary: rgb(49, 49, 51);
+  --text-primary: #313133;
   --text-heading: #39393a;
-  --text-light: white;
+  --text-light: #ffffff;
   
   /* Accent Colors */
-  --accent-green: #6A8F3E;
-  --accent-green-rgb: 106, 143, 62; /* For rgba usage */
+  --accent-green: #5a7a33;
+  --accent-green-rgb: 90, 122, 51; /* For rgba usage */
   
   /* Neutral Colors */
-  --color-black: black;
-  --color-white: white;
+  --color-black: #000000;
+  --color-white: #ffffff;
+}
+
+/* Dark Mode */
+[data-theme="dark"] {
+  /* Background Colors */
+  --bg-primary: #1a1a1a;
+  --bg-footer: #184135;
+  
+  /* Text Colors */
+  --text-primary: #e0e0e0;
+  --text-heading: #dad9d9;
+  --text-light: #d4d4d4;
+  
+  /* Accent Colors */
+  --accent-green: #8fb866;
+  --accent-green-rgb: 143, 184, 102;
+  
+  /* Neutral Colors */
+  --color-black: #ffffff;
+  --color-white: #000000;
 }
 
 /* Global Reset */
