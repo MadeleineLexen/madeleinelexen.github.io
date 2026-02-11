@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 import { ErrorPage } from "../errorPage";
 import Contact from "../pages/Contact";
 import { About } from "../pages/About";
@@ -7,7 +7,7 @@ import App from "../App";
 import MasterThesis from "../pages/MasterThesis.tsx"; 
 import PausePal from "../pages/PausePal";
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
   {
     element: <App />,
     children: [

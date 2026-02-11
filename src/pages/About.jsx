@@ -1,22 +1,19 @@
-import { Col, Container, Row } from "react-bootstrap";
-import polaroid from '../assets/ProfilePictures/polaroid.png';
 import "./styles/About.css";
 import picture from '../assets/ProfilePictures/Portfolio-profile-picture.png';
 
 export const About = () => {
   return (
     <section className="about-page">
-      <Container fluid="md">
-        <h2 className="section-heading">About me</h2>
-        <Row className="align-items-center">
-          <Col lg={4} className="mb-4 mb-lg-0">
+      <div className="about-container">
+        <div className="about-content">
+          <div className="about-image">
             <img
               src={picture}
               alt="Madeleine, UX designer from Gothenburg"
-              className="img-fluid"
             />
-          </Col>
-          <Col lg={8}>
+          </div>
+          <div className="about-text">
+            <h2 className="about-heading">About me</h2>
             <p>
               I’m a UX designer who cares deeply about people and how they experience technology. With a background in software engineering and interaction design, I enjoy working at the intersection of logic and empathy to design digital experiences that feel intuitive, thoughtful, and human.
 
@@ -34,9 +31,9 @@ export const About = () => {
                 BSc.in Software Engineering, Chalmers University of Technology
               </li>
             </ul>
-          </Col>
-        </Row>
-      </Container>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };

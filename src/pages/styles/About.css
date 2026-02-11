@@ -1,24 +1,45 @@
 .about-page {
-    padding: 5% 5% 0 5%;
-    display: flex;
-    padding-top: 100px;
-    padding-bottom: 6rem;
+    padding: 100px 5% 6rem 5%;
 }
 
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
-.about-page img {
-    border-radius: 8px;
-    justify-content: center;
-    max-width: 100%;
+.about-content {
+    display: flex;
+    gap: 3rem;
+    align-items: flex-start;
+}
+
+.about-image {
+    flex: 0 0 33%;
+}
+
+.about-image img {
+    width: 100%;
     height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 8px;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-heading {
+    margin-bottom: 1.5rem;
 }
 
 @media (max-width: 768px) {
-    .about-page img {
-        border-radius: 8px;
+    .about-content {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    
+    .about-image {
+        flex: 0 0 auto;
         width: 75%;
+        margin: 0 auto;
     }
 }
