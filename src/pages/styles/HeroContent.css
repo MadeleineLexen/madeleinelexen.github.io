@@ -34,16 +34,16 @@
     margin-bottom: 20px;
 }
 
-/*
 @font-face {
     font-family: "Handwriting";
-    src: url("../../assets/fonts/SecretGrass.otf") format("opentype");
+    src: url("/fonts/SecretGrass.otf") format("opentype");
     font-weight: normal;
     font-style: normal;
 }
-*/
+
 .hero-heading {
-    font-size: 50px;
+    font-family: "Handwriting", sans-serif;
+    font-size: 80px;
     color: var(--text-heading);
 }
 

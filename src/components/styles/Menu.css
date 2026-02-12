@@ -56,9 +56,6 @@
     padding-left: 0;
 }
 
-
-
-
 a {
     color: var(--text-primary) !important;
     display: block;
@@ -66,18 +63,6 @@ a {
 
 .nav-link:hover {
     color: var(--accent-green) !important;
-}
-
-@font-face {
-    font-family: "Handwriting";
-    src: url("../../assets/fonts/SecretGrass.otf") format("opentype");
-    font-weight: normal;
-    font-style: normal;
-}
-
-.hero-heading {
-    font-family: "Handwriting", sans-serif;
-    font-size: 80px;
 }
 
 @media (max-width: 768px) {
