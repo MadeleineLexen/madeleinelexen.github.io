@@ -7,7 +7,7 @@ import ProjectTopSection from "../components/ProjectPage/ProjectTopSection";
 import timer from "../assets/PausePal/Timer-view.png"
 import breathe from "../assets/PausePal/Breathing 2.png"
 import timerOld from "../assets/PausePal/Timer-view-old.png"
-import breatheOld from "../assets/PausePal/Breathe-old.png"
+import breatheOld from "../assets/PausePal/breathe-old.png"
 import Hero from "../assets/PausePal/PausePal-Hero.png"
 import sketchesPhoto from "../assets/PausePal/PausePalLowFiSketch.png"
 
