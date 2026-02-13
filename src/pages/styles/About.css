@@ -1,10 +1,7 @@
 .about-page {
-    padding: 200px 5% 6rem 5%;
-}
-
-.about-container {
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
+    padding: 170px 3% 6rem 3%;
 }
 
 .about-content {
@@ -14,25 +11,30 @@
 }
 
 .about-image {
-    flex: 0 0 33%;
+    flex: 0 0 35%;
+    align-self: flex-start;
 }
 
 .about-image img {
     width: 100%;
     height: auto;
-    border-radius: 8px;
+    display: block;
 }
 
 .about-text {
     flex: 1;
 }
 
-.about-heading {
+.about-text h2 {
     margin-bottom: 1.5rem;
 }
 
 .about-text h3 {
     margin-top: 3rem;
+}
+
+.about-text ul {
+    list-style-position: inside;
 }
 
 @media (max-width: 768px) {
@@ -42,8 +44,12 @@
     }
     
     .about-image {
-        flex: 0 0 auto;
+        position: static;
         width: 75%;
         margin: 0 auto;
+    }
+    
+    .about-text {
+        padding-top: 0;
     }
 }
