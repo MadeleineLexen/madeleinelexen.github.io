@@ -1,5 +1,5 @@
 .about-page {
-    padding: 100px 5% 6rem 5%;
+    padding: 200px 5% 6rem 5%;
 }
 
 .about-container {
@@ -9,7 +9,7 @@
 
 .about-content {
     display: flex;
-    gap: 3rem;
+    gap: 6rem;
     align-items: flex-start;
 }
 
@@ -29,6 +29,10 @@
 
 .about-heading {
     margin-bottom: 1.5rem;
+}
+
+.about-text h3 {
+    margin-top: 3rem;
 }
 
 @media (max-width: 768px) {

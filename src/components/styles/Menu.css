@@ -50,10 +50,18 @@
 }
 
 
+.logo-link {
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 .logo {
     height: 49px;
     margin: 8px;
     padding-left: 0;
+    cursor: pointer;
+    display: block;
 }
 
 a {

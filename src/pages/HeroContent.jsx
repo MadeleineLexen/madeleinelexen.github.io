@@ -9,10 +9,11 @@ const HeroContent = () => {
           <section className="hero">
             <div className="hero-content">
 
-              <h1 className="hero-heading">Hi, I&apos;m Madeleine</h1>
+              <h1 className="titan-one-regular">Hi, I&apos;m Madeleine</h1>
               <p className="hero-subheading">
-                A UX designer with with a coding background. My goal is to make things that delight, and I believe that if you have fun at work, it will show through in the end product.
-              </p>
+UX designer shaping data-driven products people can trust.
+
+I work at the intersection of complex systems and everyday experience, turning algorithms and data into intuitive, transparent interactions.              </p>
 
             </div>
           </section>
