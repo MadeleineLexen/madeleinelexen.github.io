@@ -45,6 +45,18 @@
   padding: 0;
 }
 
+/* Focus Indicators for Accessibility */
+*:focus-visible {
+  outline: 3px solid var(--accent-green);
+  outline-offset: 3px;
+  border-radius: 8px;
+}
+
+/* Remove default outline for mouse clicks */
+*:focus:not(:focus-visible) {
+  outline: none;
+}
+
 /* General Styles */
 html,
 body {
@@ -58,7 +70,7 @@ body {
 
 /* Paragraph Styling */
 p {
-  font-size: 20px;
+  font-size: 1.125rem;
   text-align: justify;
   color: var(--text-primary);
 }
@@ -103,7 +115,7 @@ h4 {
 
 @media screen and (max-width: 768px) {
   p {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 }
 
