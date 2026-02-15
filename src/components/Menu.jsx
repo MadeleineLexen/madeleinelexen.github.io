@@ -1,7 +1,7 @@
 import "./styles/Menu.css";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import logo from "../assets/Chatgpt-logo.png";
+import Logo from "../assets/LOGO.svg?react";
 import { DarkModeToggle } from "./DarkModeToggle";
 
 
@@ -15,7 +15,7 @@ function Menu() {
         sticky="top"
       >
         <Link to="/" className="logo-link" onClick={() => window.scrollTo(0, 0)}>
-          <img className="logo" src={logo} alt="Home" />
+          <Logo className="logo" aria-label="Home" />
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse

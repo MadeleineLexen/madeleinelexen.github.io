@@ -68,11 +68,13 @@
 }
 
 .logo {
-    height: 49px;
-    margin: 8px;
+    width: 36px;
+    height: auto;
+    margin: 8px 0;
     padding-left: 0;
     cursor: pointer;
     display: block;
+    color: var(--accent-green);
 }
 
 a {
