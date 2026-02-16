@@ -1,4 +1,5 @@
 import "./styles/Menu.css";
+import "./styles/MenuDarkOverrides.css";
 import { Navbar, Nav } from "react-bootstrap";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import Logo from "../assets/LOGO.svg?react";

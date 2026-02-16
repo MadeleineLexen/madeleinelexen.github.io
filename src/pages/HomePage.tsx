@@ -34,35 +34,3 @@ const HomePage = () => {
 };
 
 export default HomePage;
-
-/*
- <Row className="g-5">
-              <Col md={6} lg={4} className="mb-4">
-                <ProjectCard
-                  title="Project 1"
-                  description="Description for project 1."
-                  image={masterThesis}
-                  stack={["Figma", "Sketch"]}
-                  link="https://example.com/project1"
-                />
-              </Col>
-              <Col md={6} lg={4} className="mb-4">
-                <ProjectCard
-                  title="Project 2"
-                  description="Description for project 2."
-                  image={masterThesis}
-                  stack={["React", "Bootstrap"]}
-                  link="https://example.com/project2"
-                />
-              </Col>
-              <Col md={6} lg={4} className="mb-4">
-                <ProjectCard
-                  title="Project 3"
-                  description="Description for project 3."
-                  image={masterThesis}
-                  stack={["JavaScript", "CSS"]}
-                  link="https://example.com/project3"
-                />
-              </Col>
-            </Row>
-            */
