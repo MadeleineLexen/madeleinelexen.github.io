@@ -9,7 +9,7 @@ const HeroContent = () => {
           <section className="hero">
             <div className="hero-content">
 
-              <h1 className="titan-one-regular">Hi, I&apos;m Madeleine</h1>
+              <h1 className="instrument-sans">Hi, I&apos;m Madeleine</h1>
               <p className="hero-subheading">
 UX designer shaping data-driven products people can trust.
 

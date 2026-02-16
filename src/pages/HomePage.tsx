@@ -10,11 +10,11 @@ const HomePage = () => {
   const location = useLocation();
 
   useEffect(() => {
-    // Simple hash scroll for projects section
+    // Instantly jump to projects section if hash is present
     if (location.hash === '#projects') {
       const element = document.getElementById('projects');
       if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
+        element.scrollIntoView({ behavior: 'instant', block: 'start' });
       }
     }
   }, [location]);

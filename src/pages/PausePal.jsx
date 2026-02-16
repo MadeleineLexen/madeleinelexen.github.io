@@ -26,7 +26,7 @@ const PausePal = () => {
           title="PausePal"
           description={[
             "After learning from the Swedish Cancer Society that prolonged sitting increases the risk of cancer, diabetes, and cardiovascular disease, I tried to build healthier habits myself. I knew short breaks were good for my focus and wellbeing, but i kept forgetting to take them.",
-            " This became the spark for my project: a Chrome extension that reminds users to pause and breath, or do some quick stretches or desk exercises to make breaks more meaningful."
+            " This became the spark for my project: a Chrome extension that reminds users to pause and breathe, or do some quick stretches or desk exercises to make breaks more meaningful."
           ]}
           info={{
             client: "Personal Project",
@@ -60,7 +60,7 @@ const PausePal = () => {
             <img src={breathe} alt="PausePal screenshot version 2 breathe" />
           </div>
           <p>
-            The images above show how the app developed over time. The first version was my initial concept, where I focused on structure and functionality. Feedback from the second user tests showed that the app felt a bit "square" in it's design, and not so cosy. Changing the color pallatte and some of the animations made the app feel more calming.
+            The images above show how the app developed over time. The first version was my initial concept, where I focused on structure and functionality. Feedback from the second user tests showed that the app felt a bit "square" in it's design, and not so cosy. Changing the color palette and some of the animations made the app feel more calming.
           </p>
         </SectionTitleAboveContent>
 

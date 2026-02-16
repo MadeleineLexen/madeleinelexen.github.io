@@ -1,11 +1,29 @@
 import "./styles/Menu.css";
 import { Navbar, Nav } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import Logo from "../assets/LOGO.svg?react";
 import { DarkModeToggle } from "./DarkModeToggle";
 
 
+
 function Menu() {
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  const handleProjectsClick = (e) => {
+    if (location.pathname === "/") {
+      e.preventDefault();
+      const el = document.getElementById("projects");
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth", block: "start" });
+      } else {
+        // fallback: update hash so HomePage effect triggers
+        window.location.hash = "#projects";
+      }
+    }
+    // else: let Link handle navigation
+  };
+
   return (
     <div className="nav-sticky">
       <Navbar
@@ -23,7 +41,7 @@ function Menu() {
           id="basic-navbar-nav"
         >
           <Nav className="ml-auto">
-            <Link className="nav-link" to="/#projects" aria-label="View my UX design projects">PROJECTS</Link>
+            <Link className="nav-link" to="/#projects" aria-label="View my UX design projects" onClick={handleProjectsClick}>PROJECTS</Link>
             <Link className="nav-link" to="/about" aria-label="Read about Madeleine">ABOUT</Link>
             <Link className="nav-link" to="/contact" aria-label="Contact Madeleine">CONTACT</Link>
            <DarkModeToggle />
