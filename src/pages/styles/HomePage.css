@@ -1,3 +1,27 @@
+.page-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 2rem;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 768px) {
+    .page-container {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+        margin-top: 1rem;
+    }
+}
+.page-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 2rem;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 .homepage {
     padding-bottom: 100px;
     /* Add space at the bottom of the homepage */

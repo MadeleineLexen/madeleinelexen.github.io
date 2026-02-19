@@ -62,7 +62,7 @@ html,
 body {
   height: 100%;
   color: var(--color-black);
-  font-family: "Open Sans", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 16px;
   scroll-behavior: auto;
   background-color: var(--bg-primary);
@@ -110,7 +110,7 @@ h4 {
 .section-heading {
   text-align: center;
   margin-bottom: 4rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 768px) {

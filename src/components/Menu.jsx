@@ -45,7 +45,6 @@ function Menu() {
             <Link className="nav-link" to="/#projects" aria-label="View my UX design projects" onClick={handleProjectsClick}>PROJECTS</Link>
             <Link className="nav-link" to="/about" aria-label="Read about Madeleine">ABOUT</Link>
             <Link className="nav-link" to="/contact" aria-label="Contact Madeleine">CONTACT</Link>
-           <DarkModeToggle />
           </Nav>
         </Navbar.Collapse>
       </Navbar>

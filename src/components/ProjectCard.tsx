@@ -14,14 +14,14 @@ export interface ProjectCardProps {
 
 const ProjectCard = (props: ProjectCardProps) => {
   return (
-    <Link to={`/${props.link}`} className="project-card-new">
-      <div className="project-card-new-image">
+    <Link to={`/${props.link}`} className="project-card">
+      <div className="project-card-image">
         <img src={props.image} alt={props.title} />
       </div>
-      <div className="project-card-new-content">
-        <h3 className="project-card-new-title">{props.title}</h3>
-        <p className="project-card-new-description">{props.description}</p>
-        <div className="project-card-new-tags">
+      <div className="project-card-content">
+        <h3 className="project-card-title">{props.title}</h3>
+        <p className="project-card-description">{props.description}</p>
+        <div className="project-card-tags">
           {props.stack.map((tag, index) => (
             <span key={index} className="project-tag">
               {tag}

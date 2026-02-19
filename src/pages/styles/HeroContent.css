@@ -1,40 +1,50 @@
-.instrument-sans {
-    font-family: "Instrument Sans", sans-serif;
+/* Hero subheading */
+.hero-subheading {
+    font-size: 1.7rem;
+    color: var(--text-primary);
+    margin-top: 1.5rem;
+    margin-bottom: 0;
     font-weight: 400;
-    font-style: normal;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .hero-subheading {
+        font-size: 1rem;
+    }
+}
+/* Spacing for projects section below hero */
+#projects {
+    margin-top: 4rem;
+}
+
+/* Typography */
+.hero-heading {
+    font-family: "Manrope", sans-serif;
     font-size: 3rem;
+    font-weight: 500;
+    color: var(--text-heading);
+    text-align: left;
 }
 
-.hero-btn {
-    font-size: 1.1rem;
-    padding: 0.8rem 2rem;
-}
-
+/* Layout */
 .hero {
     padding-top: 25vh;
     padding-bottom: 50vh;
     height: calc(100vh - 500px);
-    text-align: center;
-}
-
-.hero-subheading {
-    font-size: 1rem;
-    margin-top: 20px;
-    max-width: 600px;
-    color: var(--text-primary);
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .hero-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     animation: fadeInUp 1s ease-out;
 }
 
+
+
+/* Animation */
 @keyframes fadeInUp {
     from {
         opacity: 0;
@@ -46,12 +56,14 @@
     }
 }
 
-.hero-content img {
-    max-width: 400px;
-    height: auto;
-    margin-bottom: 20px;
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-heading {
+        font-size: 2rem;
+    }
 }
 
+/* Optional: Custom font-face for handwriting, if used elsewhere */
 @font-face {
     font-family: "Handwriting";
     src: url("/fonts/SecretGrass.otf") format("opentype");
@@ -59,25 +71,4 @@
     font-style: normal;
 }
 
-.titan-one-regular {
-  font-family: "Titan One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 3rem;
-}
-
-.hero-heading {
-    font-family: "Handwriting", sans-serif;
-    font-size: 5rem;
-    color: var(--text-heading);
-}
-
-@media (max-width: 768px) {
-    .hero-heading {
-        font-size: 2rem;
-    }
-
-    .hero-subheading {
-        font-size: 1.2rem;
-    }
-}
+/* Removed unused classes: .instrument-sans, .hero-btn, .hero-subheading, .titan-one-regular, .hero-left, .hero-content-left */

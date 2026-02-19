@@ -27,10 +27,12 @@
 
 .about-text h2 {
     margin-bottom: 1.5rem;
+    margin-top: 4rem;
+
 }
 
-.about-text h3 {
-    margin-top: 3rem;
+.about-heading {
+    margin-bottom: 1.5rem;
 }
 
 .about-text ul {
@@ -42,13 +44,13 @@
         flex-direction: column;
         gap: 2rem;
     }
-    
+
     .about-image {
         position: static;
         width: 75%;
         margin: 0 auto;
     }
-    
+
     .about-text {
         padding-top: 0;
     }

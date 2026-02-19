@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { Container } from "react-bootstrap";
 import { useLocation } from "react-router-dom";
 
 import "./styles/HomePage.css";
@@ -21,14 +20,14 @@ const HomePage = () => {
 
   return (
     <div className="homepage">
-      <Container className="page-container">
+      <div className="page-container">
         <section id="hero">
           <HeroContent />
         </section>
         <section id="projects">
           <ProjectSection />
         </section>
-      </Container>
+      </div>
     </div>
   );
 };
