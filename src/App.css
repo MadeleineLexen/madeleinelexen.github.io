@@ -2,7 +2,7 @@
 :root {
   /* Background Colors */
   --bg-primary: #faf8f6;
-  --bg-footer: #1A513E;
+  --bg-footer: #431a51;
   
   /* Text Colors */
   --text-primary: #313133;
@@ -10,8 +10,10 @@
   --text-light: #ffffff;
   
   /* Accent Colors */
-  --accent-green: #5a7a33;
+  /*--accent-green: #5a7a33;
   --accent-green-rgb: 90, 122, 51; /* For rgba usage */
+  --accent-green: #b274d6;
+  --accent-green-rgb: 178, 116, 214; /* For rgba usage */
   
   /* Neutral Colors */
   --color-black: #000000;
