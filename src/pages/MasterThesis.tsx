@@ -33,7 +33,7 @@ const MasterThesis = () => {
                 <h1 className="project-main-title">Master thesis</h1>
                 <img src={HeaderImage} alt="Master Thesis" className="page-header-image" />
                 <ProjectTopSection title={"Master Thesis"} description={"The goal of this thesis was to figure out the best way to present information to an operator at a maritime coordination centre. To do this, we collaborated with the Swedish Sea Rescue Society (SSRS), a volunteer rescue organisation that helps with rescue operations in Swedish and surrounding waters.   To support their crews, SSRS have five employees that rotate being on-call. They function as decision support and aid in coordinating the resources and operations at SSRS. Over the years, SSRS has grown to the point where they need a physical coordination centre to do their work efficiently. This project aimed to contribute to the centre by exploring how to design a system for it."} info={{ client: "The Swedish Sea Rescue Society, Chalmers University of Technology", team: "Research partner Sara Kitzing", role: "Researcher", timeline: "Jan 2021 - Jun 2021" }} />
-                <p className='goal-statement'>Problem statement: How does one present information to meet the needs of an operator at a maritime coordination centre?</p>
+                <p className={"goal-statement"}>Problem statement: How does one present information to meet the needs of an operator at a maritime coordination centre?</p>
 
                 <SectionTitleAboveContent title="Context" >
                     <p className="project-text">

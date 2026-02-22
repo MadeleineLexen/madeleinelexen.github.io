@@ -9,6 +9,8 @@ import breathe from "../assets/PausePal/Breathing 2.png"
 import timerOld from "../assets/PausePal/Timer-view-old.png"
 import breatheOld from "../assets/PausePal/breathe-old.png"
 import Hero from "../assets/PausePal/PausePal-Hero.png"
+import HeroMobile from "../assets/PausePal/PausePal-cover-image-mobile.png"
+import ResponsiveHeroImage from "../components/ResponsiveHeroImage";
 import sketchesPhoto from "../assets/PausePal/PausePalLowFiSketch.png"
 
 
@@ -19,7 +21,12 @@ const PausePal = () => {
         <Breadcrumbs />
         <h1 className="project-main-title">PausePal</h1>
 
-        <img src={Hero} alt="PausePal" className="page-header-image" />
+        <ResponsiveHeroImage 
+          desktopSrc={Hero} 
+          mobileSrc={HeroMobile} 
+          alt="PausePal" 
+          className="page-header-image" 
+        />
 
 
         <ProjectTopSection
