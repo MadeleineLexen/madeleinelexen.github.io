@@ -10,7 +10,7 @@ const projects: ProjectCardProps[] = [
   {
     title: "PausePal",
     description:
-      "A Chrome Extension for Healthier Workdays",
+      "A Chrome extension for healthier workdays",
     image: PausePalCardImage,
     stack: [
       "Figma",
