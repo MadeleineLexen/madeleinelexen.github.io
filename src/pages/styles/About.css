@@ -1,36 +1,65 @@
+/* About Page Container */
 .about-page {
     max-width: 1400px;
     margin: 0 auto;
     padding: 170px 5% 6rem 5%;
 }
 
-.about-content {
+/* Hero Section */
+.about-hero-stack {
     display: flex;
-    gap: 6rem;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
+    gap: 4.5rem;
+    margin-bottom: 3rem;
 }
 
-.about-image {
-    flex: 0 0 35%;
+.about-hero-stack .hero-subheading {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--text-primary);
+    margin-top: 0.5rem;
+}
+
+.about-hero-stack .hero-subheading + .hero-subheading {
+    margin-top: 1rem;
+}
+
+.about-hero-image {
+    max-width: 420px;
+    width: 100%;
     align-self: flex-start;
 }
 
-.about-image img {
+.about-hero-image img {
     width: 100%;
     height: auto;
     display: block;
+    border-radius: 1rem;
 }
 
-.about-text {
-    flex: 1;
+/* Alternating Sections */
+.about-section {
+    display: flex;
+    width: 100%;
+    margin: 4.5rem 0;
 }
 
-
-.about-text-h2-normal {
-    margin-bottom: 1.5rem;
-    margin-top: 4rem;
+.about-section-left {
+    justify-content: flex-start;
 }
 
+.about-section-right {
+    justify-content: flex-end;
+}
+
+.about-section-inner {
+    width: 55%;
+    min-width: 220px;
+    max-width: 700px;
+}
+
+/* Section Headings */
 .about-h2-small {
     font-size: 1.25rem;
     font-weight: 600;
@@ -38,27 +67,31 @@
     letter-spacing: 0.01em;
 }
 
-.about-heading {
+.about-text-h2-normal {
     margin-bottom: 1.5rem;
+    margin-top: 4rem;
 }
 
-.about-text ul {
+.about-section-inner ul {
     list-style-position: inside;
 }
 
-@media (max-width: 768px) {
-    .about-content {
-        flex-direction: column;
-        gap: 2rem;
+/* Responsive */
+@media (max-width: 900px) {
+    .about-section-inner {
+        width: 100%;
+        max-width: 100%;
     }
 
-    .about-image {
-        position: static;
-        width: 75%;
-        margin: 0 auto;
+    .about-section {
+        justify-content: flex-start !important;
     }
+}
 
-    .about-text {
-        padding-top: 0;
+@media (max-width: 800px) {
+    .about-hero-stack {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 2.5rem;
     }
 }
