@@ -33,7 +33,7 @@ export const About = () => {
             />
           </div>
         </div>
-        <div className="about-section about-section-right">
+        <div className="about-section about-section-left">
           <div className="about-section-inner">
             <h2 className="about-h2-small">What I do</h2>
             <p>
@@ -41,7 +41,7 @@ export const About = () => {
             </p>
           </div>
         </div>
-        <div className="about-section about-section-left">
+        <div className="about-section about-section-right">
           <div className="about-section-inner">
             <h2 className="about-h2-small">Why I do it</h2>
             <p>
@@ -49,7 +49,7 @@ export const About = () => {
             </p>
           </div>
         </div>
-        <div className="about-section about-section-right">
+        <div className="about-section about-section-left">
           <div className="about-section-inner">
             <h2 className="about-h2-small">Outside of work</h2>
             <p>
@@ -57,7 +57,7 @@ export const About = () => {
             </p>
           </div>
         </div>
-        <div className="about-section about-section-left">
+        <div className="about-section about-section-right">
           <div className="about-section-inner">
             <h2 className={"about-text-h2-normal"}>Education</h2>
             <ul>
