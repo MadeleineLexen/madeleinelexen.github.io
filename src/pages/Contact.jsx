@@ -7,7 +7,7 @@ const Contact = () => {
         <h1>Let's Connect</h1>
         <p className="contact-intro">
           I'm currently exploring product-focused UX roles, particularly in data-driven or consumer-facing products. 
-          If you have an interesting opportunity or just have a conversation, I'd love to hear from you.
+          If you have an interesting opportunity or just want have a conversation, I'd love to hear from you.
         </p>
         
         <div className="contact-details">
