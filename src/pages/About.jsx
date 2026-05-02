@@ -13,7 +13,7 @@ const duoStreak = startValue + daysElapsed;
 
 export const About = () => {
   return (
-    <section className="about-page">
+    <section className="about-page page-transition">
       <div className="about-container">
         <div className="about-hero-stack">
           <div className="about-hero-text">

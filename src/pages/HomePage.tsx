@@ -19,7 +19,7 @@ const HomePage = () => {
   }, [location]);
 
   return (
-    <div className="homepage">
+    <div className="homepage page-transition">
       <div className="page-container">
         <section id="hero">
           <HeroContent />

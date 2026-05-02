@@ -37,7 +37,7 @@ const projects: ProjectCardProps[] = [
 
 const ProjectSection = () => {
   return (
-    <section className="projects">
+    <section className="projects page-transition">
       <h2 className="section-heading">Projects</h2>
       <Container>
         <Row className="gx-2 justify-content-center" style={{ rowGap: '6rem' }}>

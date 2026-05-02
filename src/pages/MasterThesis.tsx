@@ -27,7 +27,7 @@ const MasterThesis = () => {
     ];
 
     return (
-        <div>
+        <div className="page-transition">
             <main className="project-page-center">
                 <Breadcrumbs />
                 <h1 className="project-main-title">Master thesis</h1>

@@ -16,7 +16,7 @@ import sketchesPhoto from "../assets/PausePal/PausePalLowFiSketch.png"
 
 const PausePal = () => {
   return (
-    <div>
+    <div className="page-transition">
       <main className="project-page-center">
         <Breadcrumbs />
         <h1 className="project-main-title">PausePal</h1>
