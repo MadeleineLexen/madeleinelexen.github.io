@@ -37,7 +37,7 @@ export const About = () => {
           <div className="about-section-inner">
             <h2 className="about-h2-small">What I do</h2>
             <p>
-              Most problems are messy in some way, which is why I focus on structuring and defining them clearly. That might mean clarifying what problem we’re actually solving, aligning a team around a shared goal, or designing flows that hold up beyond the ideal “happy path”. My technical foundation helps me understand constraints and edge cases, but I’m equally attentive to how a system feels from the user’s side, particularly when algorithms or data models risk becoming a black box.
+              Most problems are messy. I focus on making them clearer. That might mean clarifying what problem we’re actually solving, aligning a team around a shared goal, or designing flows that hold up beyond the ideal “happy path”. My technical foundation helps me understand constraints and edge cases, but I’m equally attentive to how a system feels from the user’s side, particularly when algorithms or data models risk becoming a black box.
             </p>
           </div>
         </div>

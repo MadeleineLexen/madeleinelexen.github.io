@@ -1,0 +1,32 @@
+/* ClarifyingHeadline styles */
+.clarifying-headline {
+  display: inline;
+  outline: none;
+  cursor: inherit;
+}
+
+.clarifying-headline:focus-visible {
+  outline: 2px solid var(--color-accent, #975aa5);
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
+.clarifying-letters {
+  display: inline;
+}
+
+
+.clarifying-letter {
+  display: inline-block;
+  transition: transform 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
+  will-change: transform;
+}
+
+.clarifying-letter.swapping {
+  position: relative;
+  z-index: 1;
+}
+
+.clarifying-letter.no-transition {
+  transition: none;
+}
