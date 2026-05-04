@@ -38,7 +38,7 @@ const projects: ProjectCardProps[] = [
 const ProjectSection = () => {
   return (
     <section className="projects page-transition">
-      <h2 className="section-heading">Projects</h2>
+      <h2 className="section-heading">PROJECTS</h2>
       <Container>
         <Row className="gx-2 justify-content-center" style={{ rowGap: '6rem' }}>
           {projects.map((project, index) => (

@@ -28,6 +28,9 @@ const PausePal = () => {
           className="page-header-image" 
         />
 
+        <p className="goal-statement">People don’t take breaks because they don’t have time to think about it.</p>
+
+
 
         <ProjectTopSection
           title="PausePal"
@@ -47,7 +50,7 @@ const PausePal = () => {
 
         <SectionTextLeftContentRight
           title="Solution"
-          left={<p>PausePal runs quietly in the background while you work. At set intervals, it gently reminds you to take a short break. When a reminder appears, you can start a guided breathing exercise or do some quick stretches or desk exercises that only take a minute or two to complete.
+          left={<p>PausePal runs quietly in the background while you work. At set intervals, it gently reminds you to take a short break. When a reminder appears, you can start a guided breathing exercise or do some quick stretches or desk exercises that only take a minute or two to complete. I chose to give three options over open-ended breaks to remove decision friction in the moment.
             The exercises are designed to be simple and accessible, making it easy to move without leaving your workspace. Once the break is done, you can seamlessly return to your work, and stay active without breaking your flow.</p>}
           right={<img src={timer} alt="PausePal screenshot" />}
         />

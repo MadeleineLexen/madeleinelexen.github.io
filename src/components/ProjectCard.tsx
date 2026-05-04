@@ -30,7 +30,6 @@ const ProjectCard = (props: ProjectCardProps) => {
           ))}
         </div>
       </div>
-      <ProjectCardCTA />
     </Link>
   );
 }

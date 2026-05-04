@@ -17,15 +17,16 @@ export const About = () => {
       <div className="about-container">
         <div className="about-hero-stack">
           <div className="about-hero-text">
-            <h1 className="hero-heading left">Hi, I&apos;m Madeleine</h1>
-            <h2 >I design clarity in complex systems</h2>
-            <p className="hero-subheading left">
-              I'm a UX designer with a background in software engineering, currently working with complex, data-heavy systems.
-            </p>
-            <p className="hero-subheading left">
-              I like working where technology, human behavior, and trust meet, especially when something complicated needs to become clear and usable for the people relying on it.
-            </p>
+            <h1 className="hero-heading left">ABOUT</h1>
+            <div className="about-hero-subtext">
+              <h2>Most systems aren't lacking data — they're lacking clarity.</h2>
+              <h3>
+                I design tools that help people make better decisions.</h3>
+            </div>
           </div>
+
+
+
           <div className="about-hero-image">
             <img
               src={picture2}
@@ -33,6 +34,17 @@ export const About = () => {
             />
           </div>
         </div>
+
+        <div className="about-section about-section-left">
+          <div className="about-section-inner">
+            <h2 className="about-h2-small">Who I am</h2>
+
+            <p>
+              I'm a UX designer with a background in software engineering, currently working with complex, data-heavy systems.              I like working where technology, human behavior, and trust meet, especially when something complicated needs to become clear and usable for the people relying on it.
+            </p>
+          </div>
+        </div>
+
         <div className="about-section about-section-left">
           <div className="about-section-inner">
             <h2 className="about-h2-small">What I do</h2>
@@ -41,7 +53,7 @@ export const About = () => {
             </p>
           </div>
         </div>
-        <div className="about-section about-section-right">
+        <div className="about-section about-section-left">
           <div className="about-section-inner">
             <h2 className="about-h2-small">Why I do it</h2>
             <p>
@@ -57,7 +69,7 @@ export const About = () => {
             </p>
           </div>
         </div>
-        <div className="about-section about-section-right">
+        <div className="about-section about-section-left">
           <div className="about-section-inner">
             <h2 className={"about-text-h2-normal"}>Education</h2>
             <ul>
