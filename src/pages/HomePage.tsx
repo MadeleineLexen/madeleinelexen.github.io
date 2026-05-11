@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
+import SEO from "../components/SEO";
 
 import "./styles/HomePage.css";
 import HeroContent from "./HeroContent";
@@ -21,10 +21,11 @@ const HomePage = () => {
 
   return (
     <>
-      <Helmet>
-        <title>Madeleine Lexén | UX Designer</title>
-        <meta name="description" content="UX designer specializing in complex B2B systems and data-heavy tools. Case studies in decision support, revenue optimization, and operational UX." />
-      </Helmet>
+      <SEO 
+        title="Madeleine Lexén | UX Designer"
+        description="UX designer specializing in complex B2B systems and data-heavy tools. Case studies in decision support, revenue optimization, and operational UX."
+        path="/"
+      />
       <div className="homepage page-transition">
         <div className="page-container">
           <section id="hero">
