@@ -18,7 +18,7 @@ const projects: ProjectCardProps[] = [
       "UI design",
       "UX research",
     ],
-    link: "pausepal",
+    link: "projects/pausepal",
   },
   {
     title: "Master thesis",
@@ -31,7 +31,7 @@ const projects: ProjectCardProps[] = [
       "UX research",
       "Sketching",
     ],
-    link: "masterthesis",
+    link: "projects/masterthesis",
   },
 ];
 

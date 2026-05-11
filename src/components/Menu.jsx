@@ -14,16 +14,20 @@ function Menu() {
   const [expanded, setExpanded] = useState(false);
 
   const handleProjectsClick = (e) => {
+    e.preventDefault();
+    
     if (location.pathname === "/") {
-      e.preventDefault();
+      // Already on homepage - just scroll and update hash
       const el = document.getElementById("projects");
       if (el) {
         el.scrollIntoView({ behavior: "smooth", block: "start" });
-      } else {
-        window.location.hash = "#projects";
+        window.history.pushState(null, "", "/#projects");
       }
+    } else {
+      // Navigate to homepage with hash
+      navigate("/#projects");
     }
-    setExpanded(false); // close menu after click
+    setExpanded(false);
   };
 
   const handleNavClick = () => {

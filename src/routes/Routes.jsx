@@ -1,4 +1,4 @@
-import { createHashRouter } from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 import { ErrorPage } from "../errorPage";
 import Contact from "../pages/Contact";
 import { About } from "../pages/About";
@@ -7,7 +7,7 @@ import App from "../App";
 import MasterThesis from "../pages/MasterThesis.tsx"; 
 import PausePal from "../pages/PausePal";
 
-export const router = createHashRouter([
+export const router = createBrowserRouter([
   {
     element: <App />,
     children: [
@@ -23,12 +23,12 @@ export const router = createHashRouter([
         errorElement: <ErrorPage />,
       },
       {
-        path: "/pausepal",
+        path: "/projects/pausepal",
         element: <PausePal />,
         errorElement: <ErrorPage />,
       },
       {
-        path: "/masterthesis",
+        path: "/projects/masterthesis",
         element: <MasterThesis />,
         errorElement: <ErrorPage />,
       },
