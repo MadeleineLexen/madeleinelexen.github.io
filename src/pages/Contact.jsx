@@ -1,8 +1,14 @@
+import { Helmet } from "react-helmet-async";
 import "./styles/Contact.css";
 
 const Contact = () => {
   return (
-    <section className="contact-page page-transition">
+    <>
+      <Helmet>
+        <title>Contact | Madeleine Lexén</title>
+        <meta name="description" content="Get in touch with Madeleine Lexén. Open to product-focused UX roles in data-driven or consumer-facing products. Based in Gothenburg." />
+      </Helmet>
+      <section className="contact-page page-transition">
       <div className="contact-container">
         <h1>Let's Connect</h1>
         <p className="contact-intro">
@@ -21,6 +27,7 @@ const Contact = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 

@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import "./styles/PausePal.css";
 import './styles/ProjectsCommon.css';
 import Breadcrumbs from "../components/Breadcrumbs";
@@ -16,7 +17,12 @@ import sketchesPhoto from "../assets/PausePal/PausePalLowFiSketch.png"
 
 const PausePal = () => {
   return (
-    <div className="page-transition">
+    <>
+      <Helmet>
+        <title>PausePal | Madeleine Lexén</title>
+        <meta name="description" content="Case study: PausePal Chrome extension – a UX project designing gentle break reminders with guided breathing and desk exercises to reduce sedentary health risks." />
+      </Helmet>
+      <div className="page-transition">
       <main className="project-page-center">
         <Breadcrumbs />
         <h1 className="project-main-title">PausePal</h1>
@@ -76,6 +82,7 @@ const PausePal = () => {
 
       </main>
     </div>
+    </>
   );
 };
 

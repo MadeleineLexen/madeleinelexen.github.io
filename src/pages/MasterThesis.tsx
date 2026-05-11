@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import './styles/ProjectsCommon.css';
 import Breadcrumbs from '../components/Breadcrumbs';
 import HeaderImage from '../assets/MasterThesis/MasterThesisCardWhite.png';
@@ -27,7 +28,12 @@ const MasterThesis = () => {
     ];
 
     return (
-        <div className="page-transition">
+        <>
+            <Helmet>
+                <title>Master Thesis | Madeleine Lexén</title>
+                <meta name="description" content="Case study: Designing a maritime coordination centre for the Swedish Sea Rescue Society. Research on information presentation for emergency operators." />
+            </Helmet>
+            <div className="page-transition">
             <main className="project-page-center">
                 <Breadcrumbs />
                 <h1 className="project-main-title">Master thesis</h1>
@@ -104,6 +110,7 @@ const MasterThesis = () => {
                 </SectionTitleAboveContent>
             </main>
         </div>
+        </>
     );
 };
 

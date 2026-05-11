@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet-async";
 import "./styles/About.css";
 import picture2 from '../assets/ProfilePictures/DSC09136.jpeg';
 
@@ -28,7 +29,12 @@ const sections = [
 ];
 
 export const About = () => (
-  <section className="about-page page-transition">
+  <>
+    <Helmet>
+      <title>About | Madeleine Lexén</title>
+      <meta name="description" content="UX designer with a software engineering background, specializing in complex B2B systems. Based in Gothenburg, focused on clarity, usability, and trust." />
+    </Helmet>
+    <section className="about-page page-transition">
     <div className="about-container">
       <div className="about-hero-stack">
         <h1 className="hero-heading left about-hero-title">ABOUT</h1>
@@ -63,4 +69,5 @@ export const About = () => (
       </div>
     </div>
   </section>
+  </>
 );
