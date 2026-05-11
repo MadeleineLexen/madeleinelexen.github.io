@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 
 const BASE_URL = "https://madeleinelexen.github.io";
-const DEFAULT_IMAGE = `${BASE_URL}/open_graph_image.png`;
+const DEFAULT_IMAGE = `${BASE_URL}/Open_graph_image.png`;
 const SITE_NAME = "Madeleine Lexén";
 
 interface SEOProps {
