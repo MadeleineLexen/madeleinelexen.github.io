@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import "./styles/ProjectCard.css";
-import ProjectCardCTA from "./ProjectCardCTA";
 
 export interface ProjectCardProps {
   title: string;
