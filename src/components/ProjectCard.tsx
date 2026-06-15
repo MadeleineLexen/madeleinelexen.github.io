@@ -22,13 +22,13 @@ const ProjectCard = (props: ProjectCardProps) => {
       <div className="project-card-content">
         <h3 className="project-card-title">{props.title}</h3>
         <p className="project-card-description">{props.description}</p>
-        <div className="project-card-tags">
+        <ul className="project-card-tags">
           {props.stack.map((tag, index) => (
-            <span key={index} className="project-tag">
+            <li key={index} className="project-tag">
               {tag}
-            </span>
+            </li>
           ))}
-        </div>
+        </ul>
       </div>
     </Link>
   );

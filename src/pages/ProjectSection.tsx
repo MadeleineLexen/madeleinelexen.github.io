@@ -10,12 +10,12 @@ const projects: ProjectCardProps[] = [
   {
     title: "Automatic overbooking model",
     description:
-      "Designing trust in an automated decision-support system",
+      "Designing trust in automated decisions",
     image: PausePalCardImage,
     stack: [
       "Product Design",
       "UX Research",
-      "User Testing",
+      "Decision support",
       "Automation UX"
     ],
     link: "projects/automatic-overbooking"
