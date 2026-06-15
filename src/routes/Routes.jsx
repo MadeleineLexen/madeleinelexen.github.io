@@ -4,8 +4,9 @@ import Contact from "../pages/Contact";
 import { About } from "../pages/About";
 import HomePage from "../pages/HomePage";
 import App from "../App";
-import MasterThesis from "../pages/MasterThesis.tsx"; 
+import MasterThesis from "../pages/MasterThesis.tsx";
 import PausePal from "../pages/PausePal";
+import Overbooking from "../pages/Overbooking.jsx";
 
 export const router = createBrowserRouter([
   {
@@ -30,6 +31,11 @@ export const router = createBrowserRouter([
       {
         path: "/projects/masterthesis",
         element: <MasterThesis />,
+        errorElement: <ErrorPage />,
+      },
+      {
+        path: "/projects/automatic-overbooking",
+        element: <Overbooking />,
         errorElement: <ErrorPage />,
       },
       {

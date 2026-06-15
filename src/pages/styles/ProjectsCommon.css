@@ -79,6 +79,20 @@
   padding: 0 16px;
 }
 
+.project-section-container h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.subsection {
+  margin-bottom: 2.5rem;
+}
+
+.highlight-text {
+  text-align: center;
+  font-weight: bold;
+}
+
 @media (max-width: 768px) {
   .goal-statement {
     margin-top: 1rem;

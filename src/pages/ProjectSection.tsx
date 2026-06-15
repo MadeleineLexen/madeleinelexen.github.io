@@ -8,28 +8,39 @@ import ProjectCard, { ProjectCardProps } from "../components/ProjectCard";
 
 const projects: ProjectCardProps[] = [
   {
-    title: "PausePal",
+    title: "Automatic overbooking model",
     description:
-      "A Chrome extension for healthier workdays",
+      "Designing trust in an automated decision-support system",
     image: PausePalCardImage,
     stack: [
-      "Figma",
-      "Illustration",
-      "UI design",
-      "UX research",
+      "Product Design",
+      "UX Research",
+      "User Testing",
+      "Automation UX"
+    ],
+    link: "projects/automatic-overbooking"
+  }, {
+    title: "PausePal",
+    description: "Exploring how design can encourage healthier workday routines",
+    image: PausePalCardImage,
+    stack: [
+      "Product Design",
+      "UX Research",
+      "Behaviour Change",
+      "Interaction Design"
     ],
     link: "projects/pausepal",
   },
   {
     title: "Master thesis",
     description:
-      "Designing for a maritime coordination centre",
+      "Exploring how interface design supports coordination and situational awareness",
     image: masterTheisCardImage,
     stack: [
-      "Litterature review",
-      "UI design",
-      "UX research",
-      "Sketching",
+      "UX Research",
+      "Systems Thinking",
+      "Interaction Design",
+      "Information Architecture"
     ],
     link: "projects/masterthesis",
   },
