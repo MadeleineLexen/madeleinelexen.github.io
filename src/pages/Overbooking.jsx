@@ -79,21 +79,44 @@ const Overbooking = () => {
                             <img src={Decision3} alt="Design decision card: Designing for oversight and system transparency" />
                         </div>
 
+                        <p className="highlight-text">A perfectly optimized model that nobody trusts creates less value than a slightly constrained model that people are willing to adopt.</p>
 
+                    </SectionTitleAboveContent>
+
+                    <SectionTitleAboveContent title="Key tradeoffs">
+                        <div className="tradeoff-card"> <h3>Control vs Optimization</h3>
+                            <p>Giving users influence over recommendations improved adoption, but created opportunities for manual interventions that could reduce optimization performance.</p>
+                        </div>
+                        <div className="tradeoff-card">
+
+                            <h3>Transparency vs Simplicity</h3>
+                            <p>Users needed enough context to evaluate recommendations, but exposing too much model detail risked creating confusion rather than confidence. Rather than surfacing the underlying statistical model, we focused on providing information that users could understand and act on when evaluating a recommendation.</p>
+                        </div>
+                        <div className="tradeoff-card">
+                            <h3>Short-term Efficiency vs Long-term Trust</h3>
+                            <p>Some design choices intentionally slowed full automation adoption in order to build confidence and encourage sustainable use. This carried a risk that users would remain reliant on manual intervention indefinitely. However, over the years following launch, manual overrides gradually decreased as confidence in the model grew.</p>
+                        </div>
                     </SectionTitleAboveContent>
 
                     <SectionTitleAboveContent title="Outcomes">
                         <p>The feature became one of the platform's core automation capabilities and was rolled out across freight regions.</p>
                         <p>Adoption was gradual, reflecting the operational importance of the decisions involved. Over time, users became increasingly comfortable relying on automated recommendations while still retaining the ability to intervene when needed.</p>
                         <p>While some regions embraced the model quickly, others continued managing departures manually, highlighting how adoption varied depending on local conditions and confidence in the system.</p>
-                        </SectionTitleAboveContent>
+                        <h3>What happened over time</h3>
+                        <p>Because the decisions involved real operational risk, adoption was gradual rather than immediate.
+
+                            In the years following launch, users continued to rely on manual interventions and overrides, particularly in situations they perceived as high risk. Over time, however, intervention rates decreased as users became more familiar with the model and observed its recommendations performing as expected.
+                        </p>
+                        <p>Looking back after more than three years in production, adoption has continued to grow across regions while manual overrides have become less frequent.</p>
+
+                    </SectionTitleAboveContent>
 
                     <div className="section-with-background">
                         <SectionTitleAboveContent title="Reflections">
                             <p className="highlight-text">A recommendation can be mathematically correct and still feel unsafe</p>
                             <p>Although the model's recommendations were mathematically sound, they did not always align with how users perceived risk. A recommendation could be technically correct while still appearing unsafe.</p>
                             <p>The overbooking model has generally performed well in production, but adoption was never automatic. Some regions embraced it quickly, while others continued managing departures manually. Seeing those differences first-hand reinforced that successful automation depends as much on trust and local context as it does on technical performance.</p>
-                            <p>Looking back, I would explore ways of communicating recommendations that better match how users think about risk, rather than exposing the full calculated value from the outset. This idea was discussed but never prioritised, which reflects a common reality in enterprise products: once a feature is delivering value, improvements to transparency and usability often compete with new revenue-generating initiatives.</p>
+                            <p>Looking back, I would explore ways of communicating recommendations that better match how users think about risk, rather than exposing the full calculated value from the outset, since this often seemed alarmingly high to the users. This idea was discussed but never prioritised, which reflects a common reality in enterprise products: once a feature is delivering value, improvements to transparency and usability often compete with new revenue-generating initiatives. Another area I would be interested in exploring further is communicating uncertainty more explicitly. Confidence indicators or reliability signals could potentially help users judge when to trust a recommendation and when closer scrutiny might be warranted.</p>
                             <p>The experience strengthened my interest in designing systems where people need to understand, supervise, and trust automated decisions rather than simply receive them. It also reinforced that introducing automation is often as much a human challenge as a technical one.</p>
                         </SectionTitleAboveContent>
                     </div>
@@ -101,7 +124,7 @@ const Overbooking = () => {
 
 
                 </main>
-            </div>
+            </div >
         </>
     );
 };

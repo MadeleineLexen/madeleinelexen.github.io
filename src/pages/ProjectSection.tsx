@@ -22,7 +22,7 @@ const projects: ProjectCardProps[] = [
     link: "projects/automatic-overbooking"
   }, {
     title: "PausePal",
-    description: "Exploring how design can encourage healthier workday routines",
+    description: "Exploring how product design can support lasting behaviour change",
     image: PausePalCardImage,
     stack: [
       "Product Design",
@@ -35,7 +35,7 @@ const projects: ProjectCardProps[] = [
   {
     title: "Master thesis",
     description:
-      "Exploring how interface design supports coordination and situational awareness",
+      "Designing information systems for high-pressure coordination environments",
     image: masterTheisCardImage,
     stack: [
       "UX Research",
