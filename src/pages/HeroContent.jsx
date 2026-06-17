@@ -7,7 +7,7 @@ const HeroContent = () => {
       <div className="hero-content hero-content-left">
         <h1 className="hero-heading left">Hi, I&apos;m Madeleine,</h1>
         <h1 className="hero-heading left">
-          I make complex problems understandable through design.
+          Technology is getting more powerful. I design products that help people understand it well enough to trust it.
         </h1>
         <p className="hero-subheading left">
           Nice of you to look in. This is a space where I share a bit of my work and thoughts on design, data, and the human experience.
