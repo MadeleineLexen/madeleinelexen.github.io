@@ -1,0 +1,23 @@
+.decision-cards-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  padding: 3.75rem 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.decision-cards-container img {
+  max-width: 30%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .decision-cards-container {
+    flex-direction: column;
+  }
+  
+  .decision-cards-container img {
+    max-width: 100%;
+  }
+}

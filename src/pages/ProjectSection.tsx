@@ -1,5 +1,6 @@
 import React from "react";
 import PausePalCardImage from "../assets/PausePal/PausePalCardImage.png";
+import OverbookingCardImage from "../assets/Overbooking/OverbookingCardImage.png";
 import masterTheisCardImage from "../assets/MasterThesis/MasterThesisCardImage.png";
 import { Col, Container, Row } from "react-bootstrap";
 import "./styles/ProjectSection.css";
@@ -11,7 +12,7 @@ const projects: ProjectCardProps[] = [
     title: "Automatic overbooking model",
     description:
       "Designing trust in automated decisions",
-    image: PausePalCardImage,
+    image: OverbookingCardImage,
     stack: [
       "Product Design",
       "UX Research",
