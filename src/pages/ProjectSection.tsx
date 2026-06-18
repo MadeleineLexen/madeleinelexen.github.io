@@ -20,6 +20,18 @@ const projects: ProjectCardProps[] = [
       "Automation UX"
     ],
     link: "projects/automatic-overbooking"
+  },{
+    title: "Master thesis",
+    description:
+      "Designing information systems for high-pressure coordination environments",
+    image: masterTheisCardImage,
+    stack: [
+      "UX Research",
+      "Systems Thinking",
+      "Interaction Design",
+      "Information Architecture"
+    ],
+    link: "projects/masterthesis",
   }, {
     title: "PausePal",
     description: "Exploring how product design can support lasting behaviour change",
@@ -32,19 +44,7 @@ const projects: ProjectCardProps[] = [
     ],
     link: "projects/pausepal",
   },
-  {
-    title: "Master thesis",
-    description:
-      "Designing information systems for high-pressure coordination environments",
-    image: masterTheisCardImage,
-    stack: [
-      "UX Research",
-      "Systems Thinking",
-      "Interaction Design",
-      "Information Architecture"
-    ],
-    link: "projects/masterthesis",
-  },
+  
 ];
 
 const ProjectSection = () => {

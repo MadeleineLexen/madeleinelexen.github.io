@@ -33,7 +33,10 @@ const Overbooking = () => {
                     <ProjectTopSection
                         title="Summary"
                         description={[
-                            "I helped design an automated overbooking capability for a revenue management platform used by freight optimizers.\n\nThe goal was to move away from static overbooking limits and allow the system to continuously adjust recommendations based on changing booking conditions. While the optimization model itself was developed by data scientists, a significant part of the design challenge was helping experienced users understand, monitor, and feel comfortable relying on automated decisions that could directly affect revenue and operations."]}
+                            "I helped design an automated overbooking capability for a revenue management platform used by freight optimisers. The goal was to automatically adjust booking recommendations based on changing demand conditions and improve revenue opportunities.",
+                            "The challenge was not the model itself. Although the recommendations were mathematically sound, adoption remained cautious because users were ultimately responsible for the consequences of acting on them. A recommendation could be technically correct and still feel risky.",
+                            "My role focused on understanding how users evaluated these recommendations and designing an experience that balanced automation, transparency, and control to support long-term trust and adoption."
+                        ]}
                         info={{
                             client: "Stena Line",
                             role: "UX Designer",
@@ -100,15 +103,11 @@ const Overbooking = () => {
 
                     <SectionTitleAboveContent title="Outcomes">
                         <p>The feature became one of the platform's core automation capabilities and was rolled out across freight regions.</p>
-                        <p>Adoption was gradual, reflecting the operational importance of the decisions involved. Over time, users became increasingly comfortable relying on automated recommendations while still retaining the ability to intervene when needed.</p>
-                        <p>While some regions embraced the model quickly, others continued managing departures manually, highlighting how adoption varied depending on local conditions and confidence in the system.</p>
-                        <h3>What happened over time</h3>
-                        <p>Because the decisions involved real operational risk, adoption was gradual rather than immediate.
-
-                            In the years following launch, users continued to rely on manual interventions and overrides, particularly in situations they perceived as high risk. Over time, however, intervention rates decreased as users became more familiar with the model and observed its recommendations performing as expected.
-                        </p>
+                        <p>Because the decisions involved real operational risk, adoption was gradual rather than immediate. Rather than forcing users into a fully automated workflow, the design deliberately preserved opportunities to monitor, adjust, and override recommendations when needed.</p>
+                        <p>These mechanisms proved important during rollout. Historical comparisons, visibility into model behaviour, and the ability to intervene gave users ways to evaluate recommendations for themselves rather than treating the system as a black box.</p>
+                        <p>Over time, users became increasingly comfortable relying on automated recommendations while still retaining the ability to step in when necessary. Intervention rates gradually decreased as users gained confidence in both the model and the surrounding controls designed to support it.</p>
+                        <p>While some regions embraced the model quickly, others continued managing departures manually, highlighting how adoption depended not only on model performance but also on local conditions, operational practices, and confidence in the system.</p>
                         <p>Looking back after more than three years in production, adoption has continued to grow across regions while manual overrides have become less frequent.</p>
-
                     </SectionTitleAboveContent>
 
                     <div className="section-with-background">

@@ -9,7 +9,10 @@ const ProjectTopSection = ({ title, description, info }) => (
       <h2 className="project-title">{title}</h2>
       <div className="project-desc-row">
         <div className="project-description">
-          <p>{description}</p>
+          {Array.isArray(description) 
+            ? description.map((para, i) => <p key={i}>{para}</p>)
+            : <p>{description}</p>
+          }
         </div>
         <div className="project-top-section-right">
           <div className="project-info-list">
