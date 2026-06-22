@@ -107,6 +107,7 @@
 .section-with-background {
   border-left: 3px solid var(--accent-green);
   border-right: 3px solid var(--accent-green);
+  margin-bottom: 10rem;
   padding: 1rem;
   max-width: calc(1200px - 32px);
   width: calc(100% - 32px);

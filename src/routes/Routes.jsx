@@ -7,6 +7,7 @@ import App from "../App";
 import MasterThesis from "../pages/MasterThesis.tsx";
 import PausePal from "../pages/PausePal";
 import Overbooking from "../pages/Overbooking.jsx";
+import MasterThesisNew from "../pages/MasterThesisNew.tsx";
 
 export const router = createBrowserRouter([
   {
@@ -30,7 +31,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "/projects/masterthesis",
-        element: <MasterThesis />,
+        element: <MasterThesisNew />,
         errorElement: <ErrorPage />,
       },
       {
