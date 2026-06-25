@@ -14,7 +14,7 @@ export interface ProjectCardProps {
 
 const ProjectCard = (props: ProjectCardProps) => {
   return (
-    <Link to={`/${props.link}`} className="project-card">
+    <Link to={`${props.link}`} className="project-card">
       <div className="project-card-image">
         <img src={props.image} alt={props.title} />
       </div>
