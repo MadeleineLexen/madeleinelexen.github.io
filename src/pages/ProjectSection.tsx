@@ -19,7 +19,7 @@ const projects: ProjectCardProps[] = [
       "Decision support",
       "Automation UX"
     ],
-    link: "projects/automatic-overbooking"
+    link: "/projects/automatic-overbooking"
   },{
     title: "Master thesis",
     description:
@@ -31,7 +31,7 @@ const projects: ProjectCardProps[] = [
       "Interaction Design",
       "Information Architecture"
     ],
-    link: "projects/masterthesis",
+    link: "/projects/masterthesis",
   }, {
     title: "PausePal",
     description: "Exploring how product design can support lasting behaviour change",
@@ -42,7 +42,7 @@ const projects: ProjectCardProps[] = [
       "Behaviour Change",
       "Interaction Design"
     ],
-    link: "projects/pausepal",
+    link: "/projects/pausepal",
   },
   
 ];
