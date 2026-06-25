@@ -12,7 +12,7 @@ const duoStreak = startValue + daysElapsed;
 const sections = [
   {
     title: "Who I am",
-    content: "I'm a UX designer with a background in software engineering, currently working with complex, data-heavy systems. I like working where technology, human behavior, and trust meet, especially when something complicated needs to become clear and usable for the people relying on it."
+    content: "I'm a UX designer currently working with complex, data-heavy systems. My background spans engineering, product design, and product ownership, which helps me bridge technical constraints, business goals, and user needs when products become complex. I like working where technology, human behavior, and trust meet, especially when something complicated needs to become clear and usable for the people relying on it."
   },
   {
     title: "What I do",
