@@ -11,38 +11,17 @@ import MasterThesisNew from "../pages/MasterThesisNew.tsx";
 
 export const router = createBrowserRouter([
   {
+    path: "/",
     element: <App />,
+    errorElement: <ErrorPage />,
     children: [
-      { path: "/", element: <HomePage />, errorElement: <ErrorPage /> },
-      {
-        path: "/about",
-        element: <About />,
-        errorElement: <ErrorPage />,
-      },
-      {
-        path: "/contact",
-        element: <Contact />,
-        errorElement: <ErrorPage />,
-      },
-      {
-        path: "/projects/pausepal",
-        element: <PausePal />,
-        errorElement: <ErrorPage />,
-      },
-      {
-        path: "/projects/masterthesis",
-        element: <MasterThesisNew />,
-        errorElement: <ErrorPage />,
-      },
-      {
-        path: "/projects/automatic-overbooking",
-        element: <Overbooking />,
-        errorElement: <ErrorPage />,
-      },
-      {
-        path: "*",
-        element: <ErrorPage />,
-      },
+      { index: true, element: <HomePage /> },
+      { path: "about", element: <About /> },
+      { path: "contact", element: <Contact /> },
+      { path: "projects/pausepal", element: <PausePal /> },
+      { path: "projects/masterthesis", element: <MasterThesisNew /> },
+      { path: "projects/automatic-overbooking", element: <Overbooking /> },
+      { path: "*", element: <ErrorPage /> },
     ],
   },
 ]);
