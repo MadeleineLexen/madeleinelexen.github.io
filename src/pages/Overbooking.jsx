@@ -12,6 +12,7 @@ import Decision3 from "../assets/Overbooking/DecisionsCard3.png"
 
 
 const Overbooking = () => {
+    console.log("Overbooking page rendered");
     return (
         <>
             <SEO
