@@ -9,6 +9,13 @@ import PausePal from "../pages/PausePal";
 import Overbooking from "../pages/Overbooking.jsx";
 import MasterThesisNew from "../pages/MasterThesisNew.tsx";
 
+const redirectPath = new URLSearchParams(window.location.search).get("redirect");
+
+if (redirectPath) {
+  window.history.replaceState(null, "", redirectPath);
+}
+
+
 export const router = createBrowserRouter([
   {
     path: "/",
